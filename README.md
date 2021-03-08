@@ -1,24 +1,16 @@
-# Project name here
-> Summary description here.
+# Fastagger
+> The fastagger gives tools for speeding up class labeling of stream segmentation data
 
-
-This file will become your README and also the index of your documentation.
 
 ## Install
 
-`pip install your_project_name`
+`pip install fastagger`
 
 ## How to use
 
-Fill me in please! Don't forget code examples:
+Import some pdf image pages to destiny folder
 
 ```
-1+1
+APP_ROOT = os.path.dirname(os.path.realpath('__file__'))
+p = Pdf(APP_ROOT+'/resources/pdfs/01.pdf')
 ```
-
-
-
-
-    2
-
-
