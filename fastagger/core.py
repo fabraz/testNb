@@ -22,6 +22,7 @@ class InvalidFileExtension(Exception):
 
 class Pdf:
     """Entity that deals with pdf
+
     """
     def __init__(self, path):
         if self.getPathType(path) != 'file':
